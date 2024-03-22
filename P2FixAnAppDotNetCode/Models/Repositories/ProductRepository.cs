@@ -9,17 +9,21 @@ namespace P2FixAnAppDotNetCode.Models.Repositories
     public class ProductRepository : IProductRepository
     {
         private static List<Product> _products;
+        private static bool _isInventoryLoaded = false;
 
         public ProductRepository()
         {
-            _products = new List<Product>();
-            GenerateProductData();
+            if (!_isInventoryLoaded)
+            {
+                _products = new List<Product>();
+                GenerateProductData();
+                _isInventoryLoaded = true;
+            }
         }
-
-        /// <summary>
-        /// Generate the default list of products
-        /// </summary>
-        private void GenerateProductData()
+            /// <summary>
+            /// Generate the default list of products
+            /// </summary>
+            private void GenerateProductData()
         {
             int id = 0;
             _products.Add(new Product(++id, 10, 92.50, "Echo Dot", "(2nd Generation) - Black"));
