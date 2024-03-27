@@ -5,7 +5,7 @@ Bienvenue dans mon projet ! Ce projet est une application web conçue pour la so
 
 ### Prérequis
 - [Git](https://git-scm.com/downloads) doit être installé sur votre machine pour cloner le dépôt.
-- [Visual Studio Community](https://visualstudio.microsoft.com/fr/downloads/) doit être installé sur votre machine pour cloner le dépôt.
+- [Visual Studio Community](https://visualstudio.microsoft.com/fr/downloads/) doit être installé sur votre machine pour travailler sur le projet.
 
 ### Étapes d'installation à partir de Visual Studio
 #### 1.Ouvrez Visual Studio
