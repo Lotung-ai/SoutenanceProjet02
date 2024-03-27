@@ -11,7 +11,7 @@ Bienvenue dans mon projet ! Ce projet est une application web conçue pour la so
 #### 1.Ouvrez Visual Studio
 #### 2.Cloner le dépôt [https://github.com/Lotung-ai/SoutenanceProjet02.git]
 
-### Étapes d'installation de Git
+### Étapes d'installation à partir de Git Bash
 #### Pour cloner le dépôt
 git clone https://github.com/Lotung-ai/SoutenanceProjet02.git
 #### Pour accéder au répertoir
