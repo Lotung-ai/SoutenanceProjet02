@@ -18,4 +18,11 @@ git clone https://github.com/Lotung-ai/SoutenanceProjet02.git
 cd SoutenanceProjet02
 #### Maintenant vous êtes prêt à travailler sur le projet
 
+## Pour contributier au projet et créer une nouvelle branche
 
+Je suis ouvert aux contributions pour améliorer ce projet. Si vous souhaitez contribuer, veuillez suivre ces étapes :
+
+- Créez une branche pour votre fonctionnalité (git checkout -b feature/ma-fonctionnalite)
+- Committez vos changements (git commit -am 'Ajouter une nouvelle fonctionnalité')
+- Poussez la branche sur GitHub (git push origin feature/ma-fonctionnalite)
+- Créez une nouvelle Pull Request
